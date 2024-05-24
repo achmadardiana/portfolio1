@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+          <nav>
+
+            <b>ACHMAD ARDIANA</b></p> 
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Skills</a></li>
+                <li><a href="#portfolio">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>           
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+          </nav>
+          <div class="header-text">
+            <p>UI/UX Designer</p>
+            <h1>Hi, I'm <span>ACHMAD ARDIANA</span><br />From Indonesia</h1
+              >
+          </div>
+        </div>
+      </div>
+      <div id="about">
+        <div class="container">
+          <div class="row">
+            <div class="about-col-1">
+              <img src="Group 9.png"/>
+            </div>
+            <div class="about-col-2">
+              <h1 class="sub-title">About Me</h1>
+              <p>I am a UI/UX designer and frontend developer. Currently, I am pursuing my studies at STMIK IKMI Cirebon as a Computer Science student. I have a strong interest in user interface (UI/UX) design and frontend development.
+              </p>
+              <div class="tab-titles">
+                <p id="skills" class="tab-links" onclick="opentab('skills')">education</p>
+                <p id="experience" class="tab-links" onclick="opentab('experience')"></p>
+                <p id="education" class="tab-links" onclick="opentab('education')">Work Experience</p>
+            </div>
+            <div class="tab-contents " id="konten-skills">
+                <ul>
+                  <li><span>2010-2016</span><br />SDN 1 JEMARAKS KIDUL</li>
+                  <li><span>2016-2019</span><br />SMPN 1 KLANGENAN</li>
+                  <li><span>2019-2022</span><br />SMK PGRI 1 PALIMANAN</li>
+                  <li><span>2022-2025</span><br />STMIK IKMI CIREBON</li>
+              </ul>
+            </div>
+            <div class="tab-contents active-tab" id="konten-experience">
+                <ul>
+                  <li><span></span><br />-Admin PT.Tiki Nugraha Eka Kurir (JNE)</li>
+                  <li><span></span><br />-Kurir Ekspedisi JNE Express</li>
+                </ul>
+            </div>
+            </div>   
+          </div>
+        </div>
+      </div>      
+        <div id="services">
+          <div class="container">
+              <h1 class="sub-title1">Skills</h1>
+              <div class="services-list">
+                  <div>
+                      <i class="fa-solid fa-code"></i>
+                      <h2>Web Design</h2>
+                      <p>
+                        Web design involves the creation and maintenance of visually appealing and functional websites. It includes aspects such as layout design, color schemes, typography, and overall user experience
+                      </p>
+                      <a href="#">Learn more</a>
+                  </div>
+                  <div>
+                      <i class="fa-sharp fa-solid fa-crop-simple"></i>
+                      <h2>UI/UX Design</h2>
+                      <p>
+                        UI/UX design focuses on enhancing the user experience and user interface of digital products. It involves creating intuitive and visually appealing interfaces that optimize user interaction
+                      </p>
+                      <a href="#">Learn more</a>
+                  </div>
+                  <div>
+                      <i class="fa-brands fa-app-store"></i>
+                      <h2>App Design</h2>
+                      <p>
+                        App design refers to the process of creating user interfaces and experiences specifically tailored for mobile applications. It includes both visual and interactive design elements
+                      </p>
+                      <a href="#">Learn more</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div id="portfolio">
+        <div class="container1"> 
+          <div class="judul">
+            <h1 class="sub-title">Project</h1>  
+          </div>
+          <div class="card-project">
+            <div class="work-list">
+              <div class="work">
+                <img src="figma.jpeg" />
+                <div class="layer">
+                  <h3>Aplication Wonderful Indonesia</h3>
+                  <p>I created this application with the aim of introducing Indonesia, including its tourism, culture, culinary, and more.
+                </div>
+              </div>
+            </div>
+            <div class="work-list">
+              <div class="work">
+                <img src="PROJECT2.png" />
+                <div class="layer">
+                  <h3>Website Developer KSP Syariah</h3>
+                  <p>The website is created to facilitate Islamic Cooperative KSP developers in managing data quickly and easily through the website</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="work-list">
+              <div class="work">
+                <img src="PROJECT3.png" />
+                <div class="layer">
+                  <h3>Login And Profile Display</h3>
+                  <p>I created a login and profile display that is as attractive as possible so that users won't get bored with the usual, ordinary appearance</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>    
+          <div class="judul">
+            <h1 class="sub-title1">Certificate</h1>  
+          </div>
+          <div class="card-project">
+            <div class="work-list">
+              <div class="work">
+                <img src="JWD.png" />
+                <div class="layer">
+                  <h3>Junuor Web Developer Certificate </h3>
+                  <p></p>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="work-list">
+              <div class="work">
+                <img src="CCNA.png" />
+                <div class="layer">
+                  <h3>Certificate CCNAv7:introduction network CISCO</h3>
+                  <p></p>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="work-list">
+              <div class="work">
+                <img src="C++.png" />
+                <div class="layer">
+                  <h3>Certificate PCAP:Programing Essentials in C++</h3>
+                  <p></p>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="work-list">
+              <div class="work">
+                <img src="PYTHON.png" />
+                <div class="layer">
+                  <h3>Certificate CPAP:Programing Essentials in C++</h3>
+                  <p></p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>  
+          <div class="judul">
+            <h1 class="sub-title1">Company</h1>  
+          </div>
+          <div class="card-project">
+            <div class="work-list">
+              <div class="work">
+                <img src="SHOPEE.jpg" />
+                <div class="layer">
+                  <h3>seller shope</h3>
+                  <p>I am a seller on the Shopee application, offering a wide range of products, from hundreds to thousands. I specialize in selling traditional toys sourced directly from local craftsmen near my home</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="work-list">
+              <div class="work">
+                <img src="LAZADA8.png" />
+                <div class="layer">
+                  <h3>seller lazada</h3>
+                  <p>I am a seller on the Shopee application, offering a wide range of products, from hundreds to thousands. I specialize in selling traditional toys sourced directly from local craftsmen near my home</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="work-list">
+              <div class="work">
+                <img src="TOKOPEDIA.png
+                " />
+                <div class="layer">
+                  <h3>seller tokopedia</h3>
+                  <p>I am a seller on the TOKOPEDIA application, offering a wide range of products, from hundreds to thousands. I specialize in selling traditional toys sourced directly from local craftsmen near my home</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>  
+         
+        <a href="#" class="btn">See more</a>
+      </div>      
+      <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title1">Contact Me</h1>
+                        <p>achmadardiana977@gmail.com</p>
+                        <p>08794657364</p>   
+                    <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+            <div class="contact-right">
+              <form>
+                <div class="input">
+                  <input type="text" name="Name" placeholder="Your Name" required />
+                  <input type="email" name="email" placeholder="Your Email" required />
+                <textarea name="Massage" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="copyright">
+          <p><i class="fa-solid fa-heart"></i> ACHMAD ARDIANA
+          </p>
+     
+        </div>
+      </div>
+      <script src="node.js"></script>
+</body>
+</html>
+
